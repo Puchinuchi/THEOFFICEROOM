@@ -1,0 +1,30 @@
+<html>
+<script>
+function godkend()
+{
+g=document.getElementById("cars").value;
+if(g==4)
+{
+  alert("KOOOORRREEEKT");
+  window.open("tillyke.html");
+}
+
+}
+</script>
+
+<h1>Velkommen til ESCAPE-ROOM'et <i>THE OFFICE ROOM</i></h1>
+<p>
+Rum 4: Du møder B. J. Novak, der spørger dig: Hvem siger dette:
+<form>
+<label for="cars">Hvem siger dette: “Identity theft is not a joke, Jim! Millions of families suffer every year.”
+<form>
+</label>
+  <select id="cars" name="cars">
+    <option value="1">Michael Scott</option>
+    <option value="2">Kevin Malone</option>
+    <option value="3">Jim Halpert</option>
+    <option value="4">Dwight Schute</option>
+  </select>
+<button onclick="godkend()">Send svar!</button>
+</form>
+</html>
